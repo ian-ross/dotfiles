@@ -1,0 +1,96 @@
+* Blogs                                                              :elfeed:
+** http://www.skybluetrades.net/rss.xml
+** Miscellaneous                                                :miscellaneous:
+*** http://feeds.feedburner.com/onegreenplanet/HMmb
+*** http://feedproxy.google.com/brainpickings/rss
+*** http://www.unfogged.com/index.xml
+*** https://status451.com/feed/
+*** http://crookedtimber.org/feed/
+*** http://languagelog.ldc.upenn.edu/nll/?feed=rss2
+*** http://blog.nuclearsecrecy.com/feed/
+*** http://feeds.megaphone.fm/intercepted
+*** http://slatestarcodex.com/feed/
+*** http://www.reddit.com/r/German/.rss
+*** http://www.reddit.com/r/finnish/.rss
+*** http://www.reddit.com/r/LearnFinnish/.rss
+** Books                                                              :books:
+*** http://www.antipope.org/charlie/blog-static/atom.xml
+*** http://www.philipsandifer.com/blog/feeds/rss/
+*** http://www.harryjconnolly.com/index.php/feed/
+*** http://robertjacksonbennett.com/feed
+*** http://scalzi.com/whatever/?feed=rss2
+*** http://www.tor.com/series/the-lovecraft-reread/feed/
+** Mathematics                                                        :maths:
+*** http://feeds.feedburner.com/Math3ma?format=xml
+*** http://andrewgelman.com/feed/
+*** http://feeds.feedburner.com/theendeavour
+*** http://bactra.org/weblog/index.rss
+*** http://jeremykun.com/feed/
+*** http://ebb.org/bkuhn/blog/rss.xml
+*** http://blog.tanyakhovanova.com/feed/
+*** https://terrytao.wordpress.com/feed/
+*** https://gowers.wordpress.com/feed/
+*** https://sbseminar.wordpress.com/feed/
+*** https://lamington.wordpress.com/feed/
+** Computing                                                      :computing:
+*** Miscellaneous
+**** http://danluu.com/atom.xml
+**** https://eev.ee/feeds/blog.atom.xml
+**** https://www.jefftk.com/news.rss
+**** http://tonsky.me/blog/atom.xml
+*** Hardware                                                       :hardware:
+**** http://hackaday.com/blog/feed/
+**** https://glennklockwood.blogspot.com/feeds/posts/default
+*** Programming Languages                                          :proglang:
+**** http://lambda-the-ultimate.org/rss.xml
+**** http://planet.haskell.org/rss20.xml
+**** http://planet.lisp.org/rss20.xml
+**** http://www.reddit.com/r/haskell/.rss
+**** http://www.reddit.com/r/haskell_lang/.rss
+**** http://www.haskellforall.com/feeds/posts/default
+**** http://gigasquidsoftware.com/atom.xml
+**** https://byorgey.wordpress.com/feed/
+**** http://blog.ezyang.com/feed/
+**** http://jvns.ca/atom.xml
+**** http://blog.burntsushi.net/index.xml
+**** http://jakevdp.github.io/feeds/all.atom.xml
+**** https://patternsinfp.wordpress.com/feed/
+**** http://blog.sigfpe.com/atom.xml
+**** http://haskellformaths.blogspot.co.at/atom.xml
+**** http://pchiusano.github.io/feed.xml
+**** https://jeremykun.com/feed/
+**** https://ocaml.org/feed.xml
+**** https://blog.janestreet.com/feed.xml
+**** https://ocamlnews.blogspot.com/feeds/posts/default
+**** http://www.reddit.com/r/ocaml/.rss
+**** https://mirage.io/blog/atom.xml
+*** Emacs                                                             :emacs:
+**** http://www.terminally-incoherent.com/blog/feed
+**** http://nullprogram.com/feed
+**** http://planet.emacsen.org/atom.xml
+*** Machine learning
+**** http://colah.github.io/rss.xml
+*** Distributed systems
+**** https://blog.acolyer.org/feed/
+**** http://muratbuffalo.blogspot.com/feeds/posts/default
+*** Nix
+**** https://planet.nixos.org/rss20.xml
+*** Games
+**** http://www.reddit.com/r/rust_gamedev/.rss
+** Science                                                          :science:
+*** http://julesandjames.blogspot.com/atom.xml
+*** http://feeds.feedburner.com/CosmicVariance
+*** http://www.preposterousuniverse.com/blog/feed/
+*** http://feeds.technologyreview.com/technology_review_blog_arxiv
+*** http://feeds.feedburner.com/blogspot/wCeDd
+*** http://www.spring.org.uk/
+** Politics & economics
+*** http://www.taxresearch.org.uk/Blog/feed/
+*** https://paulbernal.wordpress.com/feed/atom/
+** Building/workshop
+*** http://quinndunki.com/blondihacks/?feed=rss2
+*** https://maxwelldemon.com/feed/atom/
+** Van Life
+*** https://campofant.com/feed
+* Jobs
+** https://functionaljobs.com/jobs/?format=rss

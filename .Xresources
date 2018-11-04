@@ -1,0 +1,9 @@
+Emacs.geometry: 80x54
+
+Xft.hinting: 1
+
+Gnuplot.raise: False
+
+Xcursor.theme: Vanilla-DMZ
+
+dzen2.font: Monaco-11

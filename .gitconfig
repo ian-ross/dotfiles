@@ -1,0 +1,38 @@
+[user]
+	name = Ian Ross
+	email = ian@memcachier.com
+[github]
+	user = ian-ross
+	token = 89e2e87e99afee42232615b39af42ca7
+[core]
+	excludesfile = /home/iross/.gitignore
+[alias]
+	last = log -1 HEAD
+[push]
+	default = simple
+[gui]
+	recentrepo = /home/iross/projects/bayes-hive/src/bayeshive
+
+[color]
+  branch = true
+  diff = true
+  status = true
+
+[color "branch"]
+  current = red bold
+  local = red
+  remote = black
+
+[color "diff"]
+  commit = red bold
+  meta = red bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+
+[color "status"]
+  added = red bold
+  changed = green bold
+  untracked = black bold
+[merge]
+	conflictstyle = diff3
