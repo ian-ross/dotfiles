@@ -37,7 +37,6 @@
 
   (setq org-agenda-files '("~/org/projects/Agon.org"
                            "~/org/projects/MobileApps.org"
-                           "~/org/projects/habits.org"
                            "~/org/projects/NetCDF.org"
                            "~/org/todo.org"
                            "~/org/blogging.org"

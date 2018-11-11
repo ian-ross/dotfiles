@@ -76,7 +76,7 @@
 *** Nix
 **** https://planet.nixos.org/rss20.xml
 *** Games
-**** http://www.reddit.com/r/rust_gamedev/.rss
+**** https://www.reddit.com/r/rust_gamedev/.rss
 ** Science                                                          :science:
 *** http://julesandjames.blogspot.com/atom.xml
 *** http://feeds.feedburner.com/CosmicVariance

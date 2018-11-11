@@ -15,4 +15,5 @@ yesod-devel
 .floo
 .flooignore
 elpa
-
+.emacs.d/eshell/*
+.emacs.d/emms/*
