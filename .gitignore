@@ -16,3 +16,6 @@ yesod-devel
 .flooignore
 elpa
 .stack-work
+.emacs.d/eshell/*
+.emacs.d/emms/*
+.emacs.d/project-bookmarks.eld
