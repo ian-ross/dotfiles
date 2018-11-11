@@ -70,7 +70,7 @@ main = do
   xmonad $ docks $ defaultConfig
     { borderWidth = 3,
       focusedBorderColor = "orange",
-      terminal = "lilyterm",
+      terminal = "st-tmux",
       modMask = mMask,
       focusFollowsMouse = False,
       manageHook = manageDocks <+> specialManageHook <+>

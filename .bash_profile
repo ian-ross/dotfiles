@@ -10,11 +10,6 @@ then
     . .bash_profile_extras
 fi
 
-echo PULLING ORG FILES...
-cd ~/org
-git pull
-cd
-
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
     echo "Starting X in 3 seconds..."
     sleep 1
