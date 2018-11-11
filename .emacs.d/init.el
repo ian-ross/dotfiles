@@ -29,7 +29,7 @@
    (or (buffer-file-name) (file-chase-links load-file-name))))
 (add-to-list 'load-path (concat dotfiles-dir "lib"))
 (add-to-list 'load-path (concat dotfiles-dir "modules"))
-(setq custom-file (concat dotfiles-dir "custom.el"))
+(setq custom-file "~/.emacs-custom.el")
 (load custom-file 'noerror)
 
 (require 'init-lib)

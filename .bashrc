@@ -35,7 +35,7 @@ if [ -n "$DISPLAY" ]; then export BROWSER=chromium; fi
 if [ -f ~/.bash_aliases ]; then . ~/.bash_aliases; fi
 if [ -f ~/.bash_secrets ]; then . ~/.bash_secrets; fi
 if [ -f /etc/bash_completion ]; then . /etc/bash_completion; fi
-if [ -f ~/.git-completion.bash]; then . ~/.git-completion.bash; fi
+if [ -f ~/.git-completion.bash ]; then . ~/.git-completion.bash; fi
 [ -f /home/iross/.travis/travis.sh ] && source /home/iross/.travis/travis.sh
 if which direnv > /dev/null 2> /dev/null; then
     eval "$(direnv hook bash)"
