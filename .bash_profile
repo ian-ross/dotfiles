@@ -1,14 +1,14 @@
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-PATH=$HOME/bin:$PATH
-PATH=$HOME/.cabal/bin:$PATH
-PATH=$HOME/.local/bin:$PATH
-PATH=/big/haskell/bin:$PATH
-PATH=$HOME/.gem/ruby/2.2.0/bin:$PATH
-PATH=$HOME/.gem/ruby/2.3.0/bin:$PATH
-PATH=/usr/local/heroku/bin:$PATH
-PATH=$GOPATH/bin:$PATH
-PATH=$HOME/.cargo/bin:$PATH
+PATH="$HOME/.cabal/bin${PATH:+:}$PATH"
+PATH="$HOME/.local/bin${PATH:+:}$PATH"
+PATH="$HOME/.cargo/bin${PATH:+:}$PATH"
+PATH="$HOME/bin${PATH:+:}$PATH"
+
+if [[ -f .bash_profile_extras ]]
+then
+    . .bash_profile_extras
+fi
 
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
     echo "Starting X in 3 seconds..."

@@ -34,7 +34,6 @@ background-image
 qiv --root_t ~/misc-doc/desktop-background.png
 
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-nm-applet --sm-disable &
 SpiderOakONE &
 easystroke hide &
 
@@ -47,5 +46,6 @@ lilyterm &
 lilyterm &
 emacs &
 chromium &
+nm-applet --sm-disable &
 
 exec xmonad
