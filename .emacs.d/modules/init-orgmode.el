@@ -22,6 +22,12 @@
 
 (require 'init-package)
 
+(defun read-lines (filePath)
+  "Return a list of lines of a file at filePath."
+  (with-temp-buffer
+    (insert-file-contents filePath)
+    (split-string (buffer-string) "\n" t)))
+
 (use-package org
   :ensure org-plus-contrib
   :config
@@ -35,17 +41,11 @@
     (with-eval-after-load "org"
       (define-key org-mode-map (kbd "C-c M-l") 'org-cliplink)))
 
-  (setq org-agenda-files '("~/org/projects/Agon.org"
-                           "~/org/projects/MobileApps.org"
-                           "~/org/projects/NetCDF.org"
-                           "~/org/todo.org"
-                           "~/org/blogging.org"
-                           "~/org/memcachier.org"
-                           "~/org/gardening.org"
-                           "~/org/reading.org"))
-
   (setq org-directory "~/org/")
-  (setq org-default-notes-file (concat org-directory "/notes.org"))
+  (setq org-agenda-files
+        (mapcar (lambda (f) (concat org-directory f))
+                (read-lines "~/org/AGENDA-FILES")))
+  (setq org-default-notes-file (concat org-directory "notes.org"))
   (setq org-capture-templates
         '(("t" "todo" entry (file "~/org/refile.org")
            "** TODO %?\n%U\n%a\n" :clock-in t :clock-resume t)
