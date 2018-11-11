@@ -1,8 +1,4 @@
-export LANG="en_GB.utf8"
-
-export LD_LIBRARY_PATH=$HOME/lib:/usr/local/lib
-export MANPATH=$HOME/man:`manpath -q`
-export TEXINPUTS=.:~/lib//:
+export LD_LIBRARY_PATH=$HOME/lib
 export RUST_SRC_PATH=${HOME}/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src
 export GOPATH=$HOME/go
 
@@ -13,17 +9,9 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 export C2HS_REGRESSION_SUITE=1
 export C2HS_REGRESSION_FLAGS_CV=opencv24
 
-if ! pgrep -u $USER ssh-agent > /dev/null; then
-    ssh-agent > ~/.ssh-agent-thing
-fi
-if [[ "$SSH_AGENT_PID" == "" ]]; then
-    eval $(<~/.ssh-agent-thing)
-fi
-ssh-add -l >/dev/null || alias ssh='ssh-add -l >/dev/null || ssh-add && unalias ssh; ssh'
-
 
 # If not running interactively, don't do anything
-[ -z "$PS1" ] && return
+[[ $- != *i* ]] && return
 
 # Don't put duplicate lines in the history. See bash(1) for more options
 export HISTCONTROL=ignoredups
@@ -46,13 +34,8 @@ if [ -n "$DISPLAY" ]; then export BROWSER=chromium; fi
 if [ -f ~/.bash_aliases ]; then . ~/.bash_aliases; fi
 if [ -f ~/.bash_secrets ]; then . ~/.bash_secrets; fi
 if [ -f /etc/bash_completion ]; then . /etc/bash_completion; fi
-source ~/.git-completion.bash
 [ -f /home/iross/.travis/travis.sh ] && source /home/iross/.travis/travis.sh
-eval "$(direnv hook bash)"
-
-export AWS_DEFAULT_PROFILE=memcachier
-export AWS_PROFILE=memcachier
-export WWW_USER_EMAIL=ian@memcachier.com
+# eval "$(direnv hook bash)"
 
 
 genpasswd() {

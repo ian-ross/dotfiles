@@ -24,17 +24,17 @@ mMask :: KeyMask
 mMask = mod4Mask
 
 gsConfig :: HasColorizer a => GSConfig a
-gsConfig = defaultGSConfig { gs_font = "xft:Monaco-10" }
+gsConfig = defaultGSConfig { gs_font = "xft:LibertineMono-10" }
 
 bmDir :: String
-bmDir = "/home/iross/.xmonad/dzen2"
+bmDir = "/big/home/iross/.xmonad/dzen2"
 
 mainBar :: String
 mainBar = "dzen2 -dock -x '0' -y '0' -h '24' -w '1404' " ++
           "-ta 'l' -fg '#FFFFFF' -bg '#1B1D1E'"
 
 conkyBar :: String
-conkyBar = "conky -c /home/iross/.xmonad/conky_dzen | " ++
+conkyBar = "conky -c /big/home/iross/.xmonad/conky_dzen | " ++
             "dzen2 -dock -x '1404' -w '420' -h '24' -ta 'r' " ++
             "-bg '#1B1D1E' -fg '#FFFFFF' -y '0'"
 
@@ -70,7 +70,7 @@ main = do
   xmonad $ docks $ defaultConfig
     { borderWidth = 3,
       focusedBorderColor = "orange",
-      terminal = "lilyterm",
+      terminal = "st -e tmux",
       modMask = mMask,
       focusFollowsMouse = False,
       manageHook = manageDocks <+> specialManageHook <+>

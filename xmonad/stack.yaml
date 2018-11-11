@@ -11,3 +11,5 @@ flags:
 
 extra-deps:
   - iwlib-0.1.0
+  - dbus-1.0.1
+  - parsec-numbers-0.1.0

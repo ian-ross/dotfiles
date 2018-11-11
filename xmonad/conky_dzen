@@ -6,5 +6,20 @@ conky.config = {
 };
 
 conky.text = [[
-^fg(\#DDDDDD)^i(/home/iross/.xmonad/dzen2/cpu.xbm) ${cpu}%  ^i(/home/iross/.xmonad/dzen2/mem.xbm) ${memperc}%  ^i(/home/iross/.xmonad/dzen2/temp.xbm) ${if_match ${hwmon temp 1} <= 35}^fg(\#00AA4A)${endif}${if_match ${hwmon temp 1} > 35}${if_match ${hwmon temp 1} <= 85}^fg(\#DDDD00)${else}^fg(\#FF0000)${endif}${endif}${hwmon temp 1}°C  ^fg(\#FFFFFF)${time %Y-%m-%d} ^fg(\#EBAC54)${time %R}
+^fg(\#DDDDDD)^i(/big/home/iross/.xmonad/dzen2/battery.xbm) \
+${if_match ${battery_percent} > 25}^fg(\#00AA4A)${endif}\
+${if_match ${battery_percent} <= 25}\
+${if_match ${battery_percent} > 10}^fg(\#DDDD00)${else}^fg(\#FF0000)${endif}\
+${endif}\
+${battery_percent}%  \
+^fg(\#DDDDDD)^i(/big/home/iross/.xmonad/dzen2/cpu.xbm) \
+${cpu}%  \
+^i(/big/home/iross/.xmonad/dzen2/mem.xbm) ${memperc}%  \
+^i(/big/home/iross/.xmonad/dzen2/temp.xbm) \
+${if_match ${hwmon temp 1} <= 35}^fg(\#00AA4A)${endif}\
+${if_match ${hwmon temp 1} > 35}\
+${if_match ${hwmon temp 1} <= 85}^fg(\#DDDD00)${else}^fg(\#FF0000)${endif}\
+${endif}\
+${hwmon temp 1}°C  \
+^fg(\#FFFFFF)${time %Y-%m-%d} ^fg(\#EBAC54)${time %R}
 ]];
