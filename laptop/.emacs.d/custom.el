@@ -18,7 +18,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "white smoke" :foreground "dim gray" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 100 :width normal :foundry "ADBE" :family "Source Code Pro"))))
+ '(default ((t (:inherit nil :stipple nil :background "gray95" :foreground "gray30" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 110 :width normal :foundry "1ASC" :family "Libertine Mono"))))
  '(flymake-errline ((((class color)) (:underline "red"))) t)
  '(flymake-warnline ((((class color)) (:underline "orange"))) t)
  '(mode-line ((t (:background "light gray" :inverse-video nil))))
