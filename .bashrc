@@ -21,7 +21,7 @@ export HISTCONTROL=ignoredups
 [ -x /usr/bin/lesspipe ] && eval "$(lesspipe)"
 
 # Set prompt.
-if [ "$TERM" = "xterm" -o "$TERM" = "rxvt" -o "$TERM" = "rxvt-unicode" ]
+if [ "$TERM" = "xterm" -o "$TERM" = "st-256color" -o "$TERM" = "screen" ]
 then
     PS1='\[\033[1;30m\e]0;\u@\h: \w\007\][\h:\W] $ '
     trap 'echo -ne "\033[0;30m"' DEBUG
