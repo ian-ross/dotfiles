@@ -2,10 +2,10 @@
 
 HOST=$(hostname)
 
-echo PULLING ORG FILES...
-cd ~/org
-git pull
-cd
+#echo PULLING ORG FILES...
+#cd ~/org
+#git pull
+#cd
 
 xset b off
 xrdb -merge ~/.Xresources
@@ -41,7 +41,6 @@ then
     qiv --root_t ~/misc-doc/desktop-background.png
 fi
 
-eval $(ssh-agent)
 if [ ${HOST} == seneca ]
 then
     SpiderOakONE &
