@@ -7,10 +7,12 @@
  '(custom-safe-themes
    (quote
     ("c74e83f8aa4c78a121b52146eadb792c9facc5b1f02c917e3dbb454fca931223" default)))
- '(haskell-mode-hook (quote (turn-on-haskell-indentation turn-on-haskell-doc)) t)
+ '(haskell-mode-hook
+   (quote
+    (turn-on-haskell-indentation turn-on-haskell-doc intero-mode)))
  '(package-selected-packages
    (quote
-    (company-go go-eldoc go-mode vue-mode ess dante nix-mode latex-preview-pane elfeed-org emms floobits exec-path-from-shell f use-package paradox hydra))))
+    (shakespeare-mode company-go go-eldoc go-mode vue-mode ess dante nix-mode latex-preview-pane elfeed-org emms floobits exec-path-from-shell f use-package paradox hydra))))
 
 
 (custom-set-faces
