@@ -134,7 +134,7 @@ specialManageHook = composeAll . concat $
                         "Tk", "VirtualBox"]
            myTFloats = ["R Graphics", "Xancil2", "v4l:// - VLC media player",
                         "VisualSFM", "tmate", "Pinboard"]
-           myTPrefixFloats = ["qiv"]
+           myTPrefixFloats = ["qiv", "Unison"]
            myRFloats = []
            myShifts = [ ("1", ["Lilyterm"]), ("2", ["Emacs"]),
                         ("3", ["chromium"]), ("5", ["Liferea"])]
