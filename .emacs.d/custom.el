@@ -12,7 +12,7 @@
     (turn-on-haskell-indentation turn-on-haskell-doc intero-mode)))
  '(package-selected-packages
    (quote
-    (shakespeare-mode company-go go-eldoc go-mode vue-mode ess dante nix-mode latex-preview-pane elfeed-org emms floobits exec-path-from-shell f use-package paradox hydra))))
+    (php-mode shakespeare-mode company-go go-eldoc go-mode vue-mode ess dante nix-mode latex-preview-pane elfeed-org emms floobits exec-path-from-shell f use-package paradox hydra))))
 
 
 (custom-set-faces
@@ -22,12 +22,16 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:inherit nil :stipple nil :background "white smoke" :foreground "dim gray" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 100 :width normal :foundry "ADBE" :family "Source Code Pro"))))
  '(flymake-errline ((((class color)) (:underline "red"))) t)
+ '(flymake-error ((((class color)) (:underline "red"))))
+ '(flymake-warning ((((class color)) (:underline "orange"))))
  '(flymake-warnline ((((class color)) (:underline "orange"))) t)
+ '(mmm-default-submode-face ((t (:background "gray90"))))
  '(mode-line ((t (:background "light gray" :inverse-video nil))))
  '(mode-line-inactive ((t (:background "dark gray" :inverse-video nil))))
  '(org-column ((t (:background "grey90" :strike-through nil :underline nil :slant normal :weight normal :height 113 :family "Monaco"))))
  '(outline-1 ((t (:inherit default :foreground "dark blue" :weight bold :height 1.25))))
  '(outline-2 ((t (:inherit default :foreground "dark goldenrod" :weight bold :height 1.1))))
+ '(region ((t (:background "gray" :distant-foreground "gtk_selection_fg_color"))))
  '(show-paren-match ((t (:background "khaki"))))
  '(web-mode-html-attr-name-face ((t (:foreground "saddle brown"))))
  '(web-mode-html-tag-face ((t (:foreground "forest green" :weight bold))))

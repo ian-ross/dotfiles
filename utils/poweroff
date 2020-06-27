@@ -1,9 +1,3 @@
 #!/bin/bash
-echo SYNCING ORG FILES...
-echo
-cd ~/org
-git add .
-git commit -m "$(hostname) poweroff ($(date))"
-git push
-
+sync-org
 sudo /usr/bin/poweroff

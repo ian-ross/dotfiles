@@ -46,6 +46,7 @@
 **** http://planet.haskell.org/rss20.xml
 **** http://planet.lisp.org/rss20.xml
 **** http://www.reddit.com/r/haskell/.rss
+**** http://www.reddit.com/r/rust/.rss
 **** http://www.reddit.com/r/haskell_lang/.rss
 **** http://www.haskellforall.com/feeds/posts/default
 **** http://gigasquidsoftware.com/atom.xml
@@ -64,6 +65,7 @@
 **** https://ocamlnews.blogspot.com/feeds/posts/default
 **** http://www.reddit.com/r/ocaml/.rss
 **** https://mirage.io/blog/atom.xml
+**** https://chrispenner.ca/atom.xml
 *** Emacs                                                             :emacs:
 **** http://www.terminally-incoherent.com/blog/feed
 **** http://nullprogram.com/feed

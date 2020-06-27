@@ -1,7 +1,7 @@
 export LD_LIBRARY_PATH=$HOME/lib:/usr/local/lib
 export TEXINPUTS=.:~/lib//:
 export RUST_SRC_PATH=${HOME}/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src
-export GOPATH=$HOME/go
+export GOPATH=$HOME/go:$HOME/memcachier/code/memcachier
 
 # Make Java apps work in XMonad
 export _JAVA_AWT_WM_NONREPARENTING=1

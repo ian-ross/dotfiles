@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if lsusb -d 04D9:0141
+then
+    setxkbmap gb -option compose:ralt
+else
+    setxkbmap us -option compose:ralt
+fi
+xmodmap ~/.Xmodmap
+
+xsetwacom --set "Wacom Intuos S 2 Pen stylus" MapToOutput "1920x1080+0+0"
+xbindkeys
+xsetwacom --set "Wacom Intuos S 2 Pad pad" "Button" "9" "key +Control_L "
+xsetwacom --set "Wacom Intuos S 2 Pad pad" "Button" "8" "key +Alt_L key Left key -Alt_L"
